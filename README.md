@@ -1,4 +1,4 @@
-# TP - Estudio de niveles vibracionales del yodo molecular
+# TP3 - Estudio de niveles vibracionales del yodo molecular
 
 Este repositorio contiene los datos experimentales y los códigos desarrollados en Python para el análisis del espectro de absorción del yodo molecular (\(I_2\)), mediante la identificación de las transiciones vibracionales y el ajuste con el modelo de potencial de Morse.
 
