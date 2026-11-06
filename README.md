@@ -1,33 +1,17 @@
-# Estudio de niveles vibracionales en moléculas diatómicas homonucleares
+# TP - Estudio de niveles vibracionales del yodo molecular
 
-## Descripción
-
-Este repositorio contiene los datos experimentales y los códigos desarrollados para el trabajo práctico de la materia **Experimentos Cuánticos I**, correspondiente al estudio de los niveles vibracionales de la molécula de yodo molecular (\(I_2\)).
-
-El objetivo del trabajo es analizar el espectro de absorción del yodo, identificar las transiciones vibracionales y obtener las constantes espectroscópicas de la molécula mediante el modelo de potencial de Morse.
+Este repositorio contiene los datos experimentales y los códigos desarrollados en Python para el análisis del espectro de absorción del yodo molecular (\(I_2\)), mediante la identificación de las transiciones vibracionales y el ajuste con el modelo de potencial de Morse.
 
 ## Contenido del repositorio
 
-- **`datos_experimentales.doc`**: documento con los datos experimentales utilizados para realizar el análisis.
-- **`codigo/`**: carpeta que contiene los códigos desarrollados en Python para el procesamiento y análisis de los datos.
+### Datos experimentales
 
-## Análisis realizado
+- **`datos_experimentales.doc`**: contiene los datos experimentales utilizados para el análisis del espectro de absorción del yodo molecular.
 
-Los códigos permiten realizar el procesamiento de los datos experimentales y obtener los resultados utilizados en el informe. Entre los procedimientos realizados se encuentran:
+### Códigos y modelos
 
-- Conversión del espectro de absorción a número de onda.
-- Aplicación de la transformada rápida de Fourier (FFT) para separar la envolvente electrónica de la estructura vibracional.
-- Identificación y asignación de las transiciones vibracionales.
-- Ajuste de los datos experimentales mediante el modelo de Morse.
-- Cálculo de las constantes espectroscópicas de la molécula de \(I_2\).
+Los códigos están organizados en notebooks de Jupyter (`.ipynb`) y contienen el procesamiento de los datos, los ajustes y los resultados correspondientes al análisis del espectro.
 
-## Herramientas utilizadas
+- **`analisis_espectro.ipynb`**: contiene el procesamiento de los datos experimentales, la aplicación de la transformada de Fourier (FFT), la identificación de las transiciones vibracionales y los ajustes realizados mediante el modelo de Morse.
 
-- Python.
-- Jupyter Notebook.
-- Bibliotecas de Python para el procesamiento numérico, análisis de datos y representación gráfica.
-
----
-
-**Trabajo práctico – Experimentos Cuánticos I**  
-Universidad Nacional de La Plata (UNLP).
+Los datos experimentales y los códigos incluidos corresponden al material utilizado para el análisis y la obtención de los resultados presentados en el informe.
